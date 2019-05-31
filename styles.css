@@ -1,0 +1,43 @@
+
+.footer{
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+    color: beige;
+}
+.body{
+    width:800px;
+    height: 600px;
+    position: absolute;
+   top: 10px;
+    left: 10px;
+    color: beige;
+    background: black;
+}
+
+.node {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    position: absolute;
+    left: 355px;
+    top: 10px;
+    color: red;
+}
+
+#root{
+    position: absolute;
+    left: 405px;
+    top: 30px;
+}
+
+
+
+
