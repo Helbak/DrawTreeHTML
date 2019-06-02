@@ -6,30 +6,48 @@
     <title>Training HTML</title>
     <link rel="stylesheet" href="styles.css">
     <script src="init.js" defer> </script>
+
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>-->
+<!--    <script>-->
+<!--        mocha.setup('bdd');-->
+<!--    </script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>-->
+<!--    <script>-->
+<!--        var assert = chai.assert;-->
+<!--    </script>-->
+
 </head>
 <body>
+
 <div class="window">
 <div class="body" id="field">
 
 
-
-
-
 </div>
+
    <div class="footer">
 
            <input type="number"  id="add_number">
            <button type="submit" onclick="createNode()">add</button>
+
+           <input type="number"  id="delete_number">
+       <button type="submit" onclick="tree.deleteNodeFromArray()">delete</button>
+       </br>
        <button type="submit" onclick="upgrade()">upgrade</button>
-<!--       <input type="text"  id="screen">-->
+
        <div class = 'alarm' id = "text">
 
        </div>
+
    </div>
 </div>
 
-
-
+<!--<script src="test.js"></script>-->
+<!--<div id="mocha"></div>-->
+<!--<script>-->
+<!--    mocha.run();-->
+<!--</script>-->
 
 </body>
 </html>
